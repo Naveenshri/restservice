@@ -17,4 +17,8 @@ public class Library {
     public String someLibraryMethod() {
         return "Hello Gradle";
     }
+	
+    public String chechNegative(){
+	return "negative";
+	}
 }
