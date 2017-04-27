@@ -10,7 +10,7 @@ public class LibraryTest {
     @Test 
     public void testSomeLibraryMethod() {
         final RestTemplate template = new RestTemplate();
-		String message = template.getForObject("http://localhost:8080/sample/hello", String.class);
+		String message = template.getForObject("http://localhost:8090/sample/hello", String.class);
         Assert.assertEquals("Hello Gradle", message);
     }
 }
