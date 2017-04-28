@@ -1,0 +1,14 @@
+property:
+   activeprofile: dev
+   filelocation: D:\\quickchangesfile
+logging:
+  level:
+    com.nmfw.rest: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: D:/Logs/debug.log
+management:
+   port: 8999
+   security:
+    enabled: false
