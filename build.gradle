@@ -31,7 +31,8 @@ targetCompatibility = 1.8
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web',
     		'org.springframework.boot:spring-boot-starter-jersey',
-    		'org.springframework:spring-aspects'
+    		'org.springframework:spring-aspects',
+            'org.springframework.boot:spring-boot-starter-actuator'
    
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 
